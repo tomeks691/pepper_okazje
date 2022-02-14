@@ -11,7 +11,7 @@ from requests_html import HTMLSession
 def send_deals(link):
     load_dotenv(find_dotenv())
     api_bot = os.environ.get("api")
-    chat_id = os.environ.get("chat_id")
+    chat_id = os.environ.get("user_id")
     bot = telepot.Bot(api_bot)
     bot.sendMessage(chat_id, link)
 
