@@ -3,6 +3,6 @@ Trzeba stworzyć plik pepper_groups_to_check.txt i tam dodajemy linki z grupami 
 Program pobiera okazje i wysyła link do okazji na telegram.
 
 ## .env <br />
-api = "numer api twojego do telegrama"<br />
-chat_id = "id chatu"<br />
+api = "bot api value"<br />
+user_id= "user id"<br />
 
